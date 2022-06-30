@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Netflix Clone - Bootstrap</title>
         <link rel="stylesheet" href="style/main.css">
+        <script src="https://kit.fontawesome.com/d16d270b4c.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
@@ -20,11 +21,21 @@
         <main>
             <div class="ex-principal">
                 <div class="container">
-                    <h3 class="titulo">OZARK</h3>
+                    <img src="img/logo.png" class="titulo"></img>
                     <p class="sinopse">Um consultor financeiro se muda com a família para as montanhas do Missouri com o objetivo de lavar quinhentos milhões de dólares e acalmar um violento traficante.</p>
                 </div>
-                <button class="butao">ASSISTIR</button>
-                <button class="butao">MAIS INFORMAÇÕES</button>
+                <div class="botoes">
+                <button role="button" class="botao" id="play">
+                    <i class="fa-solid fa-play"></i>
+                    &nbsp;
+                    ASSISTIR
+                </button>
+                <button role="button" class="botao" id="info">
+                    <i class="fa-solid fa-circle-info"></i>
+                    &nbsp;
+                    MAIS INFORMAÇÕES
+                </button>
+                </div>
             </div>
         </main>
     </body>
