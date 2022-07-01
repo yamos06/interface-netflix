@@ -1,2 +1,2 @@
 # interface-netflix
-Recriação da interface da Netflix usando Bootstrap.
+Recriação da interface da Netflix.
