@@ -102,3 +102,7 @@ header nav a:hover {
     height: 100%;
     display: block;
 }
+
+.carrosel-pop {
+    margin-top: 10px;
+}
