@@ -27,8 +27,8 @@ header .container {
 
 header .logo {
     color: var(--vermelho);
-    font-family: 'Arial Black',  Times;
-    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
 }
 
 header nav a {
